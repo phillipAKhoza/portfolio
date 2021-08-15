@@ -13,14 +13,11 @@ const history = createBrowserHistory(appHistory);
 function App() {
   return (
     <div className="page">
-      <Router basename={process.env.PUBLIC_URL} history={history}>  
+      <Router>  
         <div id="preloader">
           <div id="status">&nbsp;</div>
         </div>   
-        <ScrollToTop />
-            <Route exact path='/' component={ Home } />
-            
-        <Footer />
+            <Route exact path='/' component={ Home } />  
     </Router>  
     </div> 
   );
