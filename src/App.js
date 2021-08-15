@@ -14,9 +14,6 @@ function App() {
   return (
     <div className="page">
       <Router>  
-        <div id="preloader">
-          <div id="status">&nbsp;</div>
-        </div>   
             <Route exact path='/' component={ Home } />  
     </Router>  
     </div> 
