@@ -30,6 +30,12 @@ export class Home extends Component {
             
                     <div className="col-sm-7">
                         <div className="container mt-xl-5 pt-xl-3">
+                        <section className="title container">
+                            <div className="featured-content">
+                             <h1 className="featured-title">Phillip Anton Khoza</h1>
+                             <p className="featured-paragraph">Hello I am a Junior Developer from South Africa based in Pretoria. I have 1.6 years of industry experience building web applications, mobile applications and websites. I have worked on different client projects using React, JavaScript, TypeScript, Bootstrap, Express, NodeJS, MongoDB, SPFx, and JAVA.</p>
+                            </div>
+                        </section>
                             What is Lorem Ipsum?
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
