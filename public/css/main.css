@@ -1,6 +1,5 @@
-.navbar.transparent.navbar-inverse .navbar-inner {
-    background: rgba(0,0,0,0.4);
- }
- .img1{
-     padding-top: -30px;
- }
+.sticky {
+    position: fixed;
+    width: 550px;
+    
+}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
+
 export class Header extends Component {
     render() {
         return (   
-           <nav class="navbar navbar-expand-lg navbar-light ">
+           <nav id="navbar" class="navbar navbar-expand-sm navbar-light fixed-top">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ export class Header extends Component {
                     </div>
                 </div>
             </nav>
-
+            
             )
     }
 }
