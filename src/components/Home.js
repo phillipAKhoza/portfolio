@@ -32,7 +32,8 @@ export class Home extends Component {
                         <div className="container mt-xl-5 pt-xl-3">
                         <section className="title container">
                             <div className="featured-content">
-                             <h1 className="featured-title">Phillip Anton Khoza</h1>
+                            <div class="d-none d-lg-block">hide on screens smaller than lg</div>
+                             <h1 className="featured-title"><b> Phillip Anton Khoza</b></h1>
                              <p className="featured-paragraph">Hello I am a Junior Developer from South Africa based in Pretoria. I have 1.6 years of industry experience building web applications, mobile applications and websites. I have worked on different client projects using React, JavaScript, TypeScript, Bootstrap, Express, NodeJS, MongoDB, SPFx, and JAVA.</p>
                              <div className="featured-buttons">
                              <a type="button" class="btn btn-outline-warning btn-space">Have a Chat</a>
