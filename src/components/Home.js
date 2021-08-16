@@ -34,7 +34,24 @@ export class Home extends Component {
                             <div className="featured-content">
                              <h1 className="featured-title">Phillip Anton Khoza</h1>
                              <p className="featured-paragraph">Hello I am a Junior Developer from South Africa based in Pretoria. I have 1.6 years of industry experience building web applications, mobile applications and websites. I have worked on different client projects using React, JavaScript, TypeScript, Bootstrap, Express, NodeJS, MongoDB, SPFx, and JAVA.</p>
+                             <div className="featured-buttons">
+                             <a type="button" class="btn btn-outline-warning btn-space">Have a Chat</a>
+                             <a type="button" class="btn btn-outline-warning btn-space">Hire Me</a>
+                             </div>
+                             <div className="featured-social-icons">
+                                <ul className="social-media list-group list-group-horizontal">
+                                    <li class="list-group-item"><a className="tooltip-bottom" data-tooltip="Facebook"><i className="fab fa-facebook-f" /></a>
+                                    </li>
+                                    <li class="list-group-item"><a className="tooltip-bottom" data-tooltip="Twitter"><i className="fab fa-twitter" /></a>
+                                    </li>
+                                    <li class="list-group-item"><a className="tooltip-bottom" data-tooltip="Flickr"><i className="fab fa-instagram" /></a>
+                                    </li>
+                                    <li class="list-group-item"><a className="tooltip-bottom" data-tooltip=" aedin"><i className="fab fa-linkedin-in" /></a>
+                                    </li>
+                                </ul>
                             </div>
+                            </div>
+
                         </section>
                             What is Lorem Ipsum?
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

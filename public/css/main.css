@@ -3,3 +3,32 @@
     width: 550px;
     
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.social-media{
+    padding: 20px;
+}
+.btn-space {
+    margin-right: 15px;
+}
+a.btn{
+  border: 2px solid #F68338;
+  background-color: transparent;
+  color: #F68338;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+a.btn:hover{
+  color: #ffffff;
+  background-color: #F68338;
+}
+.featured-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
