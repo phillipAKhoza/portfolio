@@ -1,8 +1,4 @@
-.sticky {
-    position: fixed;
-    width: 550px;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,9 +11,9 @@ ul {
     margin-right: 15px;
 }
 a.btn{
-  border: 2px solid #F68338;
+  border: 2px solid #0CA6B8;
   background-color: transparent;
-  color: #F68338;
+  color: #0CA6B8;
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
@@ -26,9 +22,157 @@ a.btn{
 }
 a.btn:hover{
   color: #ffffff;
-  background-color: #F68338;
+  background-color: #0CA6B8;
 }
 .featured-title{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: bolder;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #0AC67A; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0CA6B8; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0CA6B8; 
+}
+.featured-logo{
+  width: 200px;
+  height: 50px;
+}
+
+/* 1. header */
+ul li a.pk-light{
+  color: #000000;
+  font-weight: bold;
+}
+.sub-title{
+  position: relative;
+  left: 45px;
+}
+.sub-title h5{
+  font-weight: bold;
+  color: #0CA6B8;
+}
+.sub-title::before {
+  content: "";
+  height: 3px;
+  width: 35px;
+  background-color: #0CA6B8;
+  position: absolute;
+  display: inline-block;
+   top: 10px;
+  left: -45px;
+}
+
+/* 2. spacing */
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+
+.mt_80 {
+  margin-top: -80px;
+}
+
+.mt_90 {
+  margin-top: -90px;
+}
+
+.mt_95 {
+  margin-top: -95px;
+}
+
+.mt_100 {
+  margin-top: -100px;
+}
+
+.mt_225 {
+  margin-top: -225px;
+}
+
+.mt_230 {
+  margin-top: -230px;
+}
+
+.mb_80 {
+  margin-bottom: -80px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+/*3 icons */
+
+.featured-icon{
+  padding-left: 5px;
+}
+.fab{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-facebook-f {
+  color: #3B5998;
+}
+
+.fa-twitter {
+  color: #55ACEE;
+}
+
+
+.fa-linkedin-in{
+  color: #007bb5;
+}
+
+.fa-instagram {
+  color: #f40083;
+}
+
+/*4 devicers */
+.featured-slipter-info , .featured-slipter-title{
+  border-top: 1px solid #E1E1E1;
+  margin-left: -200px;
+}
+
