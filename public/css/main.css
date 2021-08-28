@@ -65,10 +65,22 @@ ul li a.pk-light{
 }
 
 /* 2. spacing */
+.skill-item{
+  text-align: center;
+}
+.abt-ul li{
+  padding: 5px 0 5px 0;
+}
+ul.abt-ul{
+  margin: 0;
+  padding: 0;
+}
 .mt-10 {
   margin-top: 10px;
 }
-
+.pt-30 {
+  padding-top: 30px;
+}
 .mt-20 {
   top: 20px;
 }
@@ -130,7 +142,26 @@ ul li a.pk-light{
   margin-top: 70px;
 }
 /*3 icons */
+.widget{
+  padding-left: 10px;
+  position: relative;
+}
 
+.widget::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'themify';
+  content: "\e661";
+}
+.flaticon{
+  font-size: 60px;
+  color: #0CA6B8;
+}
 .fab{
   position: relative;
   /* margin: 20px auto; */
@@ -259,6 +290,18 @@ ul li a.pk-light{
   margin-left: -200px;
 }
 /* 5 buttons */
+.skill-btn{
+  text-decoration: none;
+  font-weight: bold;
+  color: #0CA6B8;
+}
+.skill-btn:hover{
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  font-size: 15px;
+  transform: translateY(-150%) scale(.8);
+}
 .btn{
   border-radius: 0px;
   position: relative;
