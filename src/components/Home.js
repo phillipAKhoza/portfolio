@@ -215,7 +215,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-sm-6 col-lg-6">
                                         <div >
-                                            <img /*src="img/khoza.jpg"*/ src="https://via.placeholder.com/300x300/444444.jpg" title="single-img-five" alt="single-img-five" />
+                                            <img src="img/cert.jpg" alt="certificate image" className="cert-img-2"/>
                                         </div>
                                     </div>
                                 </div>

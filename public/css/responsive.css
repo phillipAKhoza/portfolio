@@ -12,7 +12,10 @@
       overflow-x: hidden;
     }
     ul.company{
-      padding: 0;
+      padding: 0 0 20px 0;
+    }
+    .company li{
+      padding: 0 0 10px 0;
     }
     li span{
       font-weight: bold;
@@ -34,6 +37,18 @@
     }
     .btn.download{
       font-size: 12px;
+    }
+    .cert-img-2{
+      width: 100%;
+    }
+    .company{
+      text-align: center;
+    }
+    .certification{
+      text-align: center;
+    }
+    .cert-img{
+      margin: auto;
     }
 }
 @media only screen and (min-width: 768px){
@@ -57,6 +72,15 @@
   }
   .cert-text{
     padding: 0 0 0 20px;
+  }
+  .company{
+    text-align: left;
+  }
+  .certification{
+    text-align: left;
+  }
+  .cert-img{
+    margin: 0;
   }
 
 }
