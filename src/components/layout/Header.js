@@ -12,19 +12,19 @@ export class Header extends Component {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link pk-light" href="#">Home</a>
+                                <a class="nav-link pk-light active" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pk-light" href="#">About</a>
+                                <a class="nav-link pk-light" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pk-light" href="#">Portfolio</a>
+                                <a class="nav-link pk-light" href="#portfolio">Portfolio</a>
                             </li>
                              <li class="nav-item">
-                                <a class="nav-link pk-light" href="#">Blog</a>
+                                <a class="nav-link pk-light" href="#certification">Certification</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pk-light" href="#">Contact</a>
+                                <a class="nav-link pk-light" href="#contact">Contact</a>
                             </li>
                         </ul>
                         <div class="form-inline my-2 my-lg-0">

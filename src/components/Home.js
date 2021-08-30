@@ -30,7 +30,7 @@ export class Home extends Component {
             
                     <div className="col-lg-7">
                         <div className="mt-lg-5 pt-lg-3 mt-sm-5 mt-5">
-                            <section className="title container">
+                            <section id="home" className="title container">
                                 <div className="featured-content">
                                 <div className="d-none d-lg-block mt-lg-5"></div>
                                 <h1 className="featured-title"><b> Phillip Anton Khoza</b></h1>
@@ -55,7 +55,7 @@ export class Home extends Component {
                                 
                             </section>
                             <div className="featured-slipter-title"></div>
-                            <section className="info container">
+                            <section id="about" className="info container">
                                 <div className="sub-title">
                                 <h5>ABOUT ME</h5>
                                 </div>
@@ -162,7 +162,7 @@ export class Home extends Component {
                                 </div>
                                 <p className="featured-paragraph">In addition to the company's work, I also do freelance work which enables me to improve my abilities and passion.</p>
                             </section>
-                            <div className="featured-slipter-info"></div>
+                            <div id="portfolio" className="featured-slipter-info"></div>
                             <section className="info container">
                             <div className="sub-title">
                                 <h5>PORTFOLIO</h5>
@@ -171,7 +171,7 @@ export class Home extends Component {
 
                             </section>
                             <div className="featured-slipter-info"></div>
-                            <section className="info container">
+                            <section id="certification" className="info container">
                             <div className="sub-title">
                                 <h5>CERTIFICATIONS</h5>
                                 </div>
@@ -182,7 +182,7 @@ export class Home extends Component {
                                         <div className="certificate-inner">
                                             <ul className="certification">
                                                 <li className="cert-img">
-                                                    <img src="https://via.placeholder.com/50x50/444444.jpg" alt="qualification" />
+                                                    <img src="./img/badge.png" className="cert-img" alt="qualification 1" />
                                                 </li>
                                                 <li className="cert-text">
                                                     <p className="institution-text">Azure Administrator Associate</p>
@@ -193,10 +193,10 @@ export class Home extends Component {
                                         <div className="certificate-inner">
                                             <ul className="certification">
                                                 <li className="cert-img">
-                                                    <img src="https://via.placeholder.com/50x50/444444.jpg" alt="qualification" />
+                                                    <img src="./img/badge.png" className="cert-img" alt="qualification 2" />
                                                 </li>
-                                                <li className="cert-text">
-                                                    <p className="institution-text">National Diploma Information Technology</p>
+                                                <li className="cert-text"> 
+                                                    <p className="institution-text">National Diploma IT, TUT</p>
                                                     <p className="institution-year">01-2021</p>
                                                 </li>
                                             </ul>
@@ -204,7 +204,7 @@ export class Home extends Component {
                                         <div className="certificate-inner">
                                             <ul className="certification">
                                                 <li className="cert-img">
-                                                    <img src="https://via.placeholder.com/50x50/444444.jpg" alt="qualification" />
+                                                    <img src="./img/badge.png" className="cert-img" alt="qualification 3" />
                                                 </li>
                                                 <li className="cert-text">
                                                     <p className="institution-text">Microsoft 480 Exam </p>
@@ -221,21 +221,46 @@ export class Home extends Component {
                                 </div>
                             </section>
                             <div className="featured-slipter-info"></div>
-                            <section className="info container">
-                            <div className="sub-title">
-                                <h5>TESTIMONIALS</h5>
-                                </div>
-                            What is Lorem Ipsum?
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-                            </section>
-                            <div className="featured-slipter-info"></div>
-                            <section className="info container">
+                            <section id="contact" className="info container">
                             <div className="sub-title">
                                 <h5>CONTACT</h5>
                                 </div>
-                            What is Lorem Ipsum?
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                <h2 className="featured-title-h2">Do You Have Any Projects? Feel free to send me a message</h2>
+                                <p className="featured-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <form  className="row ttm-quote-form clearfix" method="POST" action="https://formsubmit.co/phillipantonk@gmail.com">
+                                        <div className="col-sm-6 col-md-6">
+                                            <div className="form-group">
+                                                <input name="name" type="text" className="form-control bg-gray" placeholder="Full Name*" required="required" />
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-6">
+                                            <div className="form-group">
+                                                <input name="phone" type="text" placeholder="Phone Number*" required="required" className="form-control bg-gray" />
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-6">
+                                            <div className="form-group">
+                                                <input name="address" type="text" placeholder="Email Address*" required="required" className="form-control bg-gray" />
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-6">
+                                            <div className="form-group">
+                                                <input name="subject" type="text" placeholder="Subject" required="required" className="form-control bg-gray" />
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-12 col-md-12">
+                                            <div className="form-group">
+                                                <textarea name="Massage" rows={5} placeholder="Write A Massage..." required="required" className="form-control bg-gray" defaultValue={""} />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12">
+                                            <div className="text-left">
+                                                <button type="submit" id="submit" class="btn submit-btn" value>
+                                                    Send Message
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
 
                             </section>
                             <div className="featured-slipter-info"></div>
