@@ -28,7 +28,7 @@ export class Header extends Component {
                             </li>
                         </ul>
                         <div class="form-inline my-2 my-lg-0">
-                         <a className="btn btn-outline-warning my-2 my-sm-0" type="submit">Download CV <i className="fa fa-download featured-icon"></i></a>
+                         <a className="btn download btn-outline-warning my-2 my-sm-0" type="submit">Download CV <i className="fa fa-download featured-icon"></i></a>
                         </div>
                     </div>
                 </div>

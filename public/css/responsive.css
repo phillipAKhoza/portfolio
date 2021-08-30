@@ -11,6 +11,54 @@
     .site-main{
       overflow-x: hidden;
     }
+    ul.company{
+      padding: 0;
+    }
+    li span{
+      font-weight: bold;
+    }
+    .experience-container{
+      padding: 20px 0 0 0;
+    }
+    .eatured-paragraph{
+      padding: 10px 0 0 0;
+    }
+    section.info.container{
+      margin-top:60px;
+    }
+    .featured-slipter-title{
+        margin-top: 80px;
+    }
+    .featured-slipter-info{
+      margin-top: 60px;
+    }
+    .btn.download{
+      font-size: 12px;
+    }
+}
+@media only screen and (min-width: 768px){
+  .company {
+    display: flex;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+  }
+  .company li{
+    padding: 0 20px 0 0px;
+  }
+  .certification{
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .cert{
+    padding: 50px 0 0 0;
+  }
+  .cert-text{
+    padding: 0 0 0 20px;
+  }
+
 }
 @media only screen and (min-width: 992px) {
     .sticky {

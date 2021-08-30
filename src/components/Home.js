@@ -135,17 +135,39 @@ export class Home extends Component {
                             <div className="sub-title">
                                 <h5>MY EXPERIENCE</h5>
                                 </div>
-                            What is Lorem Ipsum?
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
+                                <h2 className="featured-title-h2">I Have over a year of Experience in Software Development</h2>
+                                <p className="featured-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div className="experience-container">
+                                    <div className="experience-inner">
+                                        <ul className="company">
+                                            <li><span>2021/05 - Present</span></li>
+                                            <li><span>Software Dev Intern, Itthynk Smart Solutions, JHB</span></li>
+                                            <li><p>Lorem ipsum dolor sit amet, consete tur sadipscing elitr, sed diam nonum.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div className="experience-inner">
+                                        <ul className="company">
+                                            <li><span>2020/11 - 2021/04</span></li>
+                                            <li><span>Software Dev Leanership, Itthynk Smart Solutions, JHB</span></li>
+                                            <li><p>Lorem ipsum dolor sit amet, consete tur sadipscing elitr, sed diam nonum.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div className="experience-inner">
+                                        <ul className="company">
+                                            <li><span>2020/06 - 2020/11</span></li>
+                                            <li><span>Mobile App Dev Intern, Nisela Group Holdings, PTA</span></li>
+                                            <li><p>Lorem ipsum dolor sit amet, consete tur sadipscing elitr, sed diam nonum.</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p className="featured-paragraph">In addition to the company's work, I also do freelance work which enables me to improve my abilities and passion.</p>
                             </section>
                             <div className="featured-slipter-info"></div>
                             <section className="info container">
                             <div className="sub-title">
                                 <h5>PORTFOLIO</h5>
                                 </div>
-                            What is Lorem Ipsum?
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                <h2 className="featured-title-h2">Check out my work</h2>
 
                             </section>
                             <div className="featured-slipter-info"></div>
@@ -153,18 +175,50 @@ export class Home extends Component {
                             <div className="sub-title">
                                 <h5>CERTIFICATIONS</h5>
                                 </div>
-                            What is Lorem Ipsum?
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-                            </section>
-                            <div className="featured-slipter-info"></div>
-                            <section className="info container">
-                            <div className="sub-title">
-                                <h5>BLOG</h5>
+                                <h2 className="featured-title-h2">The qualifications I possess</h2>
+                                <p className="featured-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div className="row certification-container">
+                                    <div className="cert col-sm-6 col-lg-6">
+                                        <div className="certificate-inner">
+                                            <ul className="certification">
+                                                <li className="cert-img">
+                                                    <img src="https://via.placeholder.com/50x50/444444.jpg" alt="qualification" />
+                                                </li>
+                                                <li className="cert-text">
+                                                    <p className="institution-text">Azure Administrator Associate</p>
+                                                    <p className="institution-year">03-2021</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="certificate-inner">
+                                            <ul className="certification">
+                                                <li className="cert-img">
+                                                    <img src="https://via.placeholder.com/50x50/444444.jpg" alt="qualification" />
+                                                </li>
+                                                <li className="cert-text">
+                                                    <p className="institution-text">National Diploma Information Technology</p>
+                                                    <p className="institution-year">01-2021</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="certificate-inner">
+                                            <ul className="certification">
+                                                <li className="cert-img">
+                                                    <img src="https://via.placeholder.com/50x50/444444.jpg" alt="qualification" />
+                                                </li>
+                                                <li className="cert-text">
+                                                    <p className="institution-text">Microsoft 480 Exam </p>
+                                                    <p className="institution-year">12-2020</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-6 col-lg-6">
+                                        <div >
+                                            <img /*src="img/khoza.jpg"*/ src="https://via.placeholder.com/300x300/444444.jpg" title="single-img-five" alt="single-img-five" />
+                                        </div>
+                                    </div>
                                 </div>
-                            What is Lorem Ipsum?
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
                             </section>
                             <div className="featured-slipter-info"></div>
                             <section className="info container">
