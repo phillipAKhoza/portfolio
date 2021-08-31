@@ -401,3 +401,6 @@ background-color: #0CA6B8;
 input{
   height: 50px;
 }
+span.navbar-toggler-icon{
+  color: rgb(255, 0, 0);
+}
