@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Header} from "./layout/Header";
-import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 const images = [
@@ -11,11 +10,21 @@ const images = [
   'https://via.placeholder.com/600X750/444444.jpg',
   'https://via.placeholder.com/600X750/444444.jpg'
 ];
-
+const recaptchaRef = React.createRef();
+function onChange(value) {
+  console.log("Captcha value:", value);
+  document.getElementById("submit").disabled = false;
+}
 export class Home extends Component {
+   
+    
   constructor(props) {
     super(props);
   }
+  onSubmit = () => {
+  const recaptchaValue = recaptchaRef.current.getValue();
+  this.props.onSubmit(recaptchaValue);
+}
     render() {
         return (       
           <div className="site-main">   
@@ -227,7 +236,7 @@ export class Home extends Component {
                                 </div>
                                 <h2 className="featured-title-h2">Do You Have Any Projects? Feel free to send me a message</h2>
                                 <p className="featured-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                                <form  className="row ttm-quote-form clearfix" method="POST" action="https://formsubmit.co/phillipantonk@gmail.com">
+                                <form  className="row ttm-quote-form clearfix" method="POST" action="https://formsubmit.co/phillipantonk@gmail.com" onSubmit={this.onSubmit} >
                                         <div className="col-sm-6 col-md-6">
                                             <div className="form-group">
                                                 <input name="name" type="text" className="form-control bg-gray" placeholder="Full Name*" required="required" />
@@ -253,13 +262,24 @@ export class Home extends Component {
                                                 <textarea name="Massage" rows={5} placeholder="Write A Massage..." required="required" className="form-control bg-gray" defaultValue={""} />
                                             </div>
                                         </div>
+                                        <input type="hidden" name="_next" value="http://localhost:3000"/>
+                                        <input type="hidden" name="_captcha" value="false"/>
+                                        <div className="recapt">
+                                        <ReCAPTCHA
+                                            ref={recaptchaRef}
+                                            sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                                            onChange={onChange}
+                                        />
+                                        </div>
+                                        
                                         <div className="col-md-12">
                                             <div className="text-left">
-                                                <button type="submit" id="submit" class="btn submit-btn" value>
+                                                <button type="submit" id="submit" class="btn submit-btn" disabled>
                                                     Send Message
                                                 </button>
                                             </div>
                                         </div>
+                                        
                                     </form>
 
                             </section>
