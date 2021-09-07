@@ -15,7 +15,9 @@ ul {
 ::-webkit-scrollbar {
   width: 5px;
 }
-
+.skills-topics{
+  text-align: center;
+}
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px #0AC67A; 
@@ -53,6 +55,10 @@ ul li a.pk-light:hover{
   position: relative;
   left: 45px;
 }
+.skill-subtitle{
+  font-size: 13px;
+  font-weight: bold;
+}
 .sub-title h5{
   font-weight: bold;
   color: #0CA6B8;
@@ -86,6 +92,7 @@ ul li a.pk-light:hover{
 }
 .skill-item{
   text-align: center;
+  font-weight: bold;
 }
 /* .company{
   text-align: center;
@@ -105,6 +112,9 @@ ul.abt-ul{
 }
 .mt-10 {
   margin-top: 10px;
+}
+.mt-30 {
+  margin-top: 30px;
 }
 .pt-30 {
   padding-top: 30px;
@@ -190,7 +200,7 @@ ul.abt-ul{
   content: "\e661";
 }
 .flaticon{
-  font-size: 60px;
+  font-size: 30px;
   color: #0CA6B8;
 }
 .fab{
@@ -406,4 +416,67 @@ input{
 }
 span.navbar-toggler-icon{
   color: rgb(255, 0, 0);
+}
+
+/* 8. Progress-bar */
+
+
+.ttm-progress-bar {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ttm-progress-bar:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.ttm-progress-bar .progress-bar-title {
+  top: -35px;
+  left: 0;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 11px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ttm-progress-bar .progress {
+  height: 6px;
+  width: 100%;
+  background-color: #e9e9e9;
+  overflow: visible;
+  height: auto;
+  border-radius: 0;
+}
+
+.ttm-progress-bar .progress-bar {
+  border-radius: 0;
+  height: 6px;
+  position: relative;
+  overflow: unset;
+  background-color: #0CA6B8;
+}
+
+.ttm-progress-bar .progress-bar::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  bottom: -6px;
+  right: -1px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  background-color: #0CA6B8;
+}
+
+.ttm-progress-bar .progress-bar-percent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  text-shadow: none;
 }
