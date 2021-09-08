@@ -279,7 +279,7 @@ export class Home extends Component {
                                             </div>
                                         </div>
                                         
-                                    </form>
+                                </form>
 
                             </section>
                             <div className="featured-slipter-info"></div>
