@@ -261,7 +261,7 @@ export class Home extends Component {
                                                 <textarea name="Massage" rows={5} placeholder="Write A Massage..." required="required" className="form-control bg-gray" defaultValue={""} />
                                             </div>
                                         </div>
-                                        <input type="hidden" name="_next" value="http://localhost:3000"/>
+                                        <input type="hidden" name="_next" value="https://www.phillip-dev.com/"/>
                                         <input type="hidden" name="_captcha" value="false"/>
                                         <div className="recapt">
                                         <ReCAPTCHA
