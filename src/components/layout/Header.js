@@ -8,7 +8,7 @@ export class Header extends Component {
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="img/logo.png" className="featured-logo"/></a>
+                    <a class="navbar-brand" href="https://www.facebook.com/phillipanthony.khoza"><img src="img/logo.png" alt="logo" className="featured-logo"/></a>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
@@ -28,7 +28,7 @@ export class Header extends Component {
                             </li>
                         </ul>
                         <div class="form-inline my-2 my-lg-0">
-                         <a className="btn download btn-outline-warning my-2 my-sm-0" type="submit">Download CV <i className="fa fa-download featured-icon"></i></a>
+                         <a className="btn download btn-outline-warning my-2 my-sm-0" type="submit" href="https://www.facebook.com/phillipanthony.khoza">Download CV <i className="fa fa-download featured-icon"></i></a>
                         </div>
                     </div>
                 </div>

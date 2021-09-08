@@ -3,13 +3,7 @@ import {Header} from "./layout/Header";
 import ReCAPTCHA from "react-google-recaptcha";
 
 
-const images = [
-  'https://via.placeholder.com/600X750/444444.jpg',
-  'https://via.placeholder.com/600X750/444444.jpg',
-  'https://via.placeholder.com/600X750/444444.jpg',
-  'https://via.placeholder.com/600X750/444444.jpg',
-  'https://via.placeholder.com/600X750/444444.jpg'
-];
+
 const recaptchaRef = React.createRef();
 function onChange(value) {
   console.log("Captcha value:", value);
@@ -22,9 +16,9 @@ function onChange(value) {
 export class Home extends Component {
    
     
-  constructor(props) {
-    super(props);
-  }
+//   constructor(props) {
+//     super(props);
+//   }
   onFormSubmit = () => {
   const recaptchaValue = recaptchaRef.current.getValue();
   this.props.onFormSubmit(recaptchaValue);
@@ -49,18 +43,18 @@ export class Home extends Component {
                                 <h1 className="featured-title"><b> Phillip Anton Khoza</b></h1>
                                 <p className="featured-paragraph">I am a young emerging Software Developer and a graduate from Tshwane University of Technology with a diploma in Information Technology. My openness and enthusiasm are a result of my commitment to finding opportunities where my technical, creative, and problem-solving skills can be applied to solving real business and social challenges, as well as to exploring emerging trends in the field of software engineering and to growing as an individual and professional.</p>
                                 <div className="featured-buttons">
-                                <a type="button" class="btn btn-outline-warning btn-space">Have a Chat</a>
-                                <a type="button" class="btn btn-outline-warning btn-space">Hire Me</a>
+                                {/* <a type="button" class="btn btn-outline-warning btn-space" href="#">Have a Chat</a>
+                                <a type="button" class="btn btn-outline-warning btn-space" href="#">Hire Me</a> */}
                                 </div>
                                 <div className="featured-social-icons">
                                     <ul className="social-media list-inline">
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Facebook"><i className="fab fa-facebook-f" /></a>
+                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Facebook" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-facebook-f" /></a>
                                         </li>
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Twitter"><i className="fab fa-twitter" /></a>
+                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Twitter" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-twitter" /></a>
                                         </li>
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Flickr"><i className="fab fa-instagram" /></a>
+                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Flickr" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-instagram" /></a>
                                         </li>
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip=" aedin"><i className="fab fa-linkedin-in" /></a>
+                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip=" aedin" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-linkedin-in" /></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -97,14 +91,15 @@ export class Home extends Component {
                                 </div>
                                  <h2 className="featured-title-h2">My Skills</h2>
                                 <p className="featured-paragraph">As a result of my learning and work experiences, I have acquired a variety of skills, from soft skills to technical skills. When I work and communicate with other people, I always strive to develop skills that can help me communicate and work effectively.By bringing passion and dedication to my work, I strive to become better at my craft and to produce quality work.</p>
+                                <p className="featured-paragraph skill-sub"><strong> The following areas of knowledge are among my strengths</strong></p>
                                 <div className="pt-30">
                                     <div className="row">
                                         <div className="col-sm-6 col-lg-6">
                                             <div className="skill-item">
                                                 <i className="flaticon flaticon-computer"></i>
                                                 <h5>Web App Development</h5>
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                                                {/* <a href="#" className="skill-btn">Read More
+                                                {/*<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                                <a href="#" className="skill-btn">Read More
                                                     <i className="widget"></i>
                                                 </a> */}
                                             </div>
@@ -113,8 +108,8 @@ export class Home extends Component {
                                             <div className="skill-item">
                                                 <i className="flaticon flaticon-mobile-app"></i>
                                                 <h5>Mobile App Development</h5>
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                                                {/* <a href="#" className="skill-btn">Read More
+                                                {/*<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                                <a href="#" className="skill-btn">Read More
                                                     <i className="widget"></i>
                                                 </a> */}
                                             </div>
@@ -123,8 +118,8 @@ export class Home extends Component {
                                             <div className="skill-item">
                                                 <i className="flaticon flaticon-system"></i>
                                                 <h5>Website Development</h5>
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                                                {/* <a href="#" className="skill-btn">Read More
+                                                {/*<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                                <a href="#" className="skill-btn">Read More
                                                     <i className="widget"></i>
                                                 </a> */}
                                             </div>
@@ -133,8 +128,8 @@ export class Home extends Component {
                                             <div className="skill-item">
                                                 <i className="flaticon  flaticon-server"></i>
                                                 <h5>DevOps and Azure</h5>
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                                                {/* <a href="#" className="skill-btn">Read More
+                                                {/*<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                                <a href="#" className="skill-btn">Read More
                                                     <i className="widget"></i>
                                                 </a> */}
                                                 
@@ -149,27 +144,27 @@ export class Home extends Component {
                                 <h5>MY EXPERIENCE</h5>
                                 </div>
                                 <h2 className="featured-title-h2">I Have over a year of Experience in Software Development</h2>
-                                <p className="featured-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <p className="featured-paragraph">Despite the fact that I am only at the beginning of my professional career, I already possess a multitude of skills. For example, I have experience with HTML5, CSS3, React, React Native, JavaScript (ES6), and on the back-end development side, I have NodeJs, MongoDB, PHP, and RESTful APIs to name a few.</p>
                                 <div className="experience-container">
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2021/05 - Present</span></li>
                                             <li><span>Software Dev Intern, Itthynk Smart Solutions, JHB</span></li>
-                                            <li><p>Lorem ipsum dolor sit amet, consete tur sadipscing elitr, sed diam nonum.</p></li>
+                                            <li><p>Web application and SPFx developer using TypeScript, Reactjs, DevOps &amp; Azure</p></li>
                                         </ul>
                                     </div>
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2020/11 - 2021/04</span></li>
                                             <li><span>Software Dev Leanership, Itthynk Smart Solutions, JHB</span></li>
-                                            <li><p>Lorem ipsum dolor sit amet, consete tur sadipscing elitr, sed diam nonum.</p></li>
+                                            <li><p>Principals of Web Application Dev,Project Planning, HTML5, CSS3 and JavaScript</p></li>
                                         </ul>
                                     </div>
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2020/06 - 2020/11</span></li>
                                             <li><span>Mobile App Dev Intern, Nisela Group Holdings, PTA</span></li>
-                                            <li><p>Lorem ipsum dolor sit amet, consete tur sadipscing elitr, sed diam nonum.</p></li>
+                                            <li><p>Android and IOS mobile Dev, React Nactive and Backend as a Service: Firebase Firestore</p></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -228,7 +223,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-sm-6 col-lg-6">
                                         <div >
-                                            <img src="img/cert.jpg" alt="certificate image" className="cert-img-2"/>
+                                            <img src="img/cert.jpg" alt="certificate2" className="cert-img-2"/>
                                         </div>
                                     </div>
                                 </div>
