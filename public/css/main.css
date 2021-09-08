@@ -32,10 +32,7 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: #0CA6B8; 
 }
-.featured-logo{
-  width: 200px;
-  height: 50px;
-}
+
 
 /* 1. header */
 .featured-title-h2{

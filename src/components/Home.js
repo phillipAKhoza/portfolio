@@ -48,13 +48,13 @@ export class Home extends Component {
                                 </div>
                                 <div className="featured-social-icons">
                                     <ul className="social-media list-inline">
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Facebook" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-facebook-f" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-bottom" data-tooltip="Facebook" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-facebook-f" /></a>
                                         </li>
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Twitter" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-twitter" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-bottom" data-tooltip="Twitter" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-twitter" /></a>
                                         </li>
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip="Flickr" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-instagram" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-bottom" data-tooltip="Flickr" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-instagram" /></a>
                                         </li>
-                                        <li class="list-inline-item"><a className="tooltip-bottom" data-tooltip=" aedin" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-linkedin-in" /></a>
+                                        <li claclassNamess="list-inline-item"><a className="tooltip-bottom" data-tooltip=" aedin" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-linkedin-in" /></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -184,7 +184,7 @@ export class Home extends Component {
                                 <h5>CERTIFICATIONS</h5>
                                 </div>
                                 <h2 className="featured-title-h2">The qualifications I possess</h2>
-                                <p className="featured-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <p className="featured-paragraph">As an aspiring full-stack developer, I keep myself updated with online courses and certifications and enjoy building personal projects tailored to emerging technologies. Adaptability is one of my strong points, as is my ability to pick up new skills quickly.</p>
                                 <div className="row certification-container">
                                     <div className="cert col-sm-6 col-lg-6">
                                         <div className="certificate-inner">
@@ -273,7 +273,7 @@ export class Home extends Component {
                                         
                                         <div className="col-md-12">
                                             <div className="text-left">
-                                                <button type="submit" id="submit" class="btn submit-btn" disabled >
+                                                <button type="submit" id="submit" className="btn submit-btn" disabled >
                                                     Send Message
                                                 </button>
                                             </div>
