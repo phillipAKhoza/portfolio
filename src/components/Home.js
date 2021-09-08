@@ -6,7 +6,6 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 const recaptchaRef = React.createRef();
 function onChange(value) {
-  console.log("Captcha value:", value);
   if(value !== null){
   document.getElementById("submit").disabled = false;
   }else{
