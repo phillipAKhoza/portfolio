@@ -48,13 +48,13 @@ export class Home extends Component {
                                 </div>
                                 <div className="featured-social-icons">
                                     <ul className="social-media list-inline">
-                                        <li className="list-inline-item"><a className="tooltip-bottom" data-tooltip="Facebook" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-facebook-f" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Facebook" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-facebook-f" /></a>
                                         </li>
-                                        <li className="list-inline-item"><a className="tooltip-bottom" data-tooltip="Twitter" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-twitter" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Twitter" href="https://twitter.com/PhillipAKhoza1"><i className="fab fa-twitter" /></a>
                                         </li>
-                                        <li className="list-inline-item"><a className="tooltip-bottom" data-tooltip="Flickr" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-instagram" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Github" href="https://github.com/phillipAKhoza"><i className="fab fa-github" /></a>
                                         </li>
-                                        <li claclassNamess="list-inline-item"><a className="tooltip-bottom" data-tooltip=" aedin" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-linkedin-in" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Linkedin" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-linkedin-in" /></a>
                                         </li>
                                     </ul>
                                 </div>
