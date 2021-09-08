@@ -541,7 +541,7 @@ span.navbar-toggler-icon{
   left: 0;
   display: block;
   background: #fff;
-  background-image: url(../img/loadingspinner.gif);
+  background-image: url(../img/load.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
