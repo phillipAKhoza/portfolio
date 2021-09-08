@@ -9,22 +9,22 @@ export class Header extends Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <a className="navbar-brand" href={process.env.PUBLIC_URL + '/'}><img src="img/logo.png" alt="logo" className="featured-logo"/></a>
-                    <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" data-toggle="collapse" data-target=".navbar-collapse">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-link pk-light active" href="#home" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
+                                <a className="nav-link pk-light" href="#home" >Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pk-light" href="#about" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+                                <a className="nav-link pk-light" href="#about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pk-light" href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</a>
+                                <a className="nav-link pk-light" href="#portfolio">Portfolio</a>
                             </li>
                              <li className="nav-item">
-                                <a className="nav-link pk-light" href="#certification" data-toggle="collapse" data-target=".navbar-collapse.show">Certification</a>
+                                <a className="nav-link pk-light" href="#certification">Certification</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pk-light" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
+                                <a className="nav-link pk-light" href="#contact">Contact</a>
                             </li>
                         </ul>
                         <div className="form-inline my-2 my-lg-0">
