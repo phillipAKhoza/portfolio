@@ -266,7 +266,7 @@ export class Home extends Component {
                                         <div className="recapt">
                                         <ReCAPTCHA
                                             ref={recaptchaRef}
-                                            sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                                            sitekey="6LfW7FMcAAAAAH_ZFtgqNDKd4eBdLD2JeDUoxo9Y"
                                             onChange={onChange}
                                         />
                                         </div>
