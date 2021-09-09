@@ -1,4 +1,4 @@
-// import React, { Component } from 'react';
+import React from 'react';
 import {createBrowserHistory} from 'history';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 // import { Link } from 'react-router-dom';
