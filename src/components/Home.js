@@ -28,20 +28,15 @@ export class Home extends Component {
             <Header/>
             
                 <div className="row main-container">
-                    <div className="col-lg-5 ">
+                    <div className="col-lg-5">
                         <div >
-                            <img className="img-fluid sticky" src="img/khoza.jpg" /*src="https://via.placeholder.com/400x790/444444.jpg"*/ title="single-img-five" alt="single-img-five" />
-                            <svg className="arrows">
-                                <path className="a1" d="M0 0 L30 32 L60 0"></path>
-                                <path className="a2" d="M0 20 L30 52 L60 20"></path>
-                                <path className="a3" d="M0 40 L30 72 L60 40"></path>
-                            </svg>
+                            <img className="sticky" src="img/khoza.jpg" /*src="https://via.placeholder.com/400x790/444444.jpg"*/ title="single-img-five" alt="single-img-five" />
                         </div>
                     </div>
             
-                    <div className="col-lg-7">
+                    <div id="home" className="col-lg-7">
                         <div className="mt-lg-5 pt-lg-3 mt-sm-5 mt-5">
-                            <section id="home" className="title container">
+                            <section  className="title container">
                                 <div className="featured-content">
                                 <div className="d-none d-lg-block mt-lg-5"></div>
                                 <h1 className="featured-title"><b> Phillip Anton Khoza</b></h1>
@@ -65,8 +60,8 @@ export class Home extends Component {
                                 </div>
                                 
                             </section>
-                            <div className="featured-slipter-title"></div>
-                            <section id="about" className="info container">
+                            <div id="about" className="featured-slipter-title"></div>
+                            <section  className="info container">
                                 <div className="sub-title">
                                 <h5>ABOUT ME</h5>
                                 </div>
@@ -182,8 +177,8 @@ export class Home extends Component {
                                 <h2 className="featured-title-h2">Check out my work</h2>
 
                             </section>
-                            <div className="featured-slipter-info"></div>
-                            <section id="certification" className="info container">
+                            <div  id="certification" className="featured-slipter-info"></div>
+                            <section  className="info container">
                             <div className="sub-title">
                                 <h5>CERTIFICATIONS</h5>
                                 </div>
@@ -225,15 +220,32 @@ export class Home extends Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-lg-6">
-                                        <div >
-                                            <img src="img/cert.jpg" alt="certificate2" className="cert-img-2"/>
+                                    <div className="col-sm-6 col-lg-6 text-center">
+                                        <div  className="bg-img-1 cert-img-2">
+                                            {/* <img src="img/cert.jpg" alt="certificate2" className="cert-img-2"/> */}
+                                            <div className="center">
+                                                <div className="ttm-play-icon-btn align-items-center">
+                                                    <div className="ttm-play-icon-animation"> 
+                                                    <div id="playbutton">
+                                                        <div className="ttm-icon pk-bgcolor-skincolor ttm-icon_element-size-sm rounded-circle">
+                                                        <i className="fa fa-play" />
+                                                        </div>
+                                                    </div>
+                                                    <div id="videobox">
+                                                        <i id="close-btn" className="fa fa-times"></i>
+                                                        <div id="video-wrapper">
+                                                        <iframe width="500" height="500" src="https://www.youtube.com/embed/ec1-pBtFL-w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                              
+                                                        </div>
+                                                    </div> 
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-                            <div className="featured-slipter-info"></div>
-                            <section id="contact" className="info container">
+                            <div id="contact" className="featured-slipter-info"></div>
+                            <section  className="info container">
                             <div className="sub-title">
                                 <h5>CONTACT</h5>
                                 </div>

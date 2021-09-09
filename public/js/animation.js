@@ -26,3 +26,21 @@ $(window).on("load",function() {
     // will fade out the whole DIV that covers the website.
  $("#status").fadeOut(9000);
 })
+//*------------------------------------------------------------------------------*/
+/* 2. Play pop up
+/*------------------------------------------------------------------------------*/
+
+$(document).ready(function() {
+$("#playbutton").on("click", function() {
+    $("#videobox").fadeIn(0);
+    $(this).hide();
+    var videoURL = $('#video').prop('src');
+    videoURL += "?autoplay=1";
+    $('#video').prop('src',videoURL);
+});
+
+$("#close-btn").on("click", function() {
+    $("#videobox").fadeOut(0);
+    $("#playbutton").show(0);
+});
+});
