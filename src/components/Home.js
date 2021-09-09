@@ -234,7 +234,7 @@ export class Home extends Component {
                                                     <div id="videobox">
                                                         <i id="close-btn" className="fa fa-times"></i>
                                                         <div id="video-wrapper">
-                                                        <iframe width="500" height="500" src="https://www.youtube.com/embed/ec1-pBtFL-w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                              
+                                                        <iframe width="500" height="500" src="https://www.youtube.com/embed/2kMi6MfmGM8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                              
                                                         </div>
                                                     </div> 
                                                     </div>
