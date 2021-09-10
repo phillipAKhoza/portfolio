@@ -53,7 +53,7 @@ export class Home extends Component {
                                         </li>
                                         <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Github" href="https://github.com/phillipAKhoza"><i className="fab fa-github" /></a>
                                         </li>
-                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Linkedin" href="https://www.facebook.com/phillipanthony.khoza"><i className="fab fa-linkedin-in" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Linkedin" href="https://www.linkedin.com/in/phillip-anton-khoza/"><i className="fab fa-linkedin-in" /></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -70,8 +70,8 @@ export class Home extends Component {
                                 <div className="row">
                                     <div className="col-sm-6 col-lg-6">
                                        <ul className="abt-ul">
-                                        <li><strong>Residence: </strong>Pretoria</li>
-                                        <li><strong>Address: </strong>961 Soshanguve, Block H</li>
+                                        <li><strong>Residence: </strong>Gauteng</li>
+                                        <li><strong>Address: </strong>Pretoria, soshanguve</li>
                                        </ul>
                                     </div>
                                     <div className="col-sm-6 col-lg-6">
