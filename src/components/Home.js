@@ -56,13 +56,13 @@ export class Home extends Component {
                                 </div>
                                 <div className="featured-social-icons">
                                     <ul className="social-media list-inline">
-                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Facebook" href="https://www.facebook.com/phillipanthony.khoza" target="_blank"><i className="fab fa-facebook-f" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Facebook" href="https://www.facebook.com/phillipanthony.khoza" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f" /></a>
                                         </li>
-                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Twitter" href="https://twitter.com/PhillipAKhoza1" target="_blank"><i className="fab fa-twitter" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Twitter" href="https://twitter.com/PhillipAKhoza1" target="_blank" rel="noreferrer"><i className="fab fa-twitter" /></a>
                                         </li>
-                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Github" href="https://github.com/phillipAKhoza" target="_blank"><i className="fab fa-github" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Github" href="https://github.com/phillipAKhoza" target="_blank" rel="noreferrer"><i className="fab fa-github" /></a>
                                         </li>
-                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Linkedin" href="https://www.linkedin.com/in/phillip-anton-khoza/" target="_blank"><i className="fab fa-linkedin-in" /></a>
+                                        <li className="list-inline-item"><a className="tooltip-top" data-tooltip="Linkedin" href="https://www.linkedin.com/in/phillip-anton-khoza/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in" /></a>
                                         </li>
                                     </ul>
                                 </div>
