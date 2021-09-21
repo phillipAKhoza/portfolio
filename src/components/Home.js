@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {Header} from "./layout/Header";
 import ReCAPTCHA from "react-google-recaptcha";
-
-
+import ReactGA from 'react-ga';
 
 const recaptchaRef = React.createRef();
 function onChange(value) {
@@ -13,15 +12,25 @@ function onChange(value) {
   }
 }
 export class Home extends Component {
-   
-    
-//   constructor(props) {
-//     super(props);
-//   }
-  onFormSubmit = () => {
-  const recaptchaValue = recaptchaRef.current.getValue();
-  this.props.onFormSubmit(recaptchaValue);
-}
+
+    onFormSubmit = () => {
+        const recaptchaValue = recaptchaRef.current.getValue();
+        this.props.onFormSubmit(recaptchaValue);
+        ReactGA.event({
+            category: 'Button',
+            action: 'Submit button clicked'
+        });
+    }
+    pageViewsTracking = (props) =>{
+        const pathname = props.match.path;
+        let pageview;
+        if(pathname === "*") pageview ="./not-found";
+        else pageview = pathname;
+        ReactGA.pageview(pageview);
+    }
+
+
+        
     render() {
         return (       
           <div className="site-main">   
