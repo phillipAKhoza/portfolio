@@ -49,7 +49,7 @@ export class Home extends Component {
                                 <div className="featured-content">
                                 <div className="d-none d-lg-block mt-lg-5"></div>
                                 <h1 className="featured-title"><b> Phillip Anton Khoza</b></h1>
-                                <p className="featured-paragraph">I am a young emerging Software Developer and a graduate from Tshwane University of Technology with a diploma in Information Technology. My openness and enthusiasm are a result of my commitment to finding opportunities where my technical, creative, and problem-solving skills can be applied to solving real business and social challenges, as well as to exploring emerging trends in the field of software engineering and to growing as an individual and professional.</p>
+                                <p className="featured-paragraph">I am a Junior Software Developer and a graduate from Tshwane University of Technology with a diploma in Information Technology. My openness and enthusiasm are a result of my commitment to finding opportunities where my technical, creative, and problem-solving skills can be applied to solving real business and social challenges, as well as to exploring emerging trends in the field of software engineering and to growing as an individual and professional.</p>
                                 <div className="featured-buttons">
                                 {/* <a type="button" class="btn btn-outline-warning btn-space" href="#">Have a Chat</a>
                                 <a type="button" class="btn btn-outline-warning btn-space" href="#">Hire Me</a> */}
@@ -157,14 +157,14 @@ export class Home extends Component {
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2021/05 - Present</span></li>
-                                            <li><span>Software Dev Intern, Itthynk Smart Solutions, JHB</span></li>
+                                            <li><span>Junior Software Dev, Itthynk Smart Solutions, JHB</span></li>
                                             <li><p>Web application and SPFx developer using TypeScript, Reactjs, DevOps &amp; Azure</p></li>
                                         </ul>
                                     </div>
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2020/11 - 2021/04</span></li>
-                                            <li><span>Software Dev Leanership, Itthynk Smart Solutions, JHB</span></li>
+                                            <li><span>Software Dev Internship, Itthynk Smart Solutions, JHB</span></li>
                                             <li><p>Principals of Web Application Dev,Project Planning, HTML5, CSS3 and JavaScript</p></li>
                                         </ul>
                                     </div>
