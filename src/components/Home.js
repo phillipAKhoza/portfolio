@@ -184,7 +184,26 @@ export class Home extends Component {
                                 <h5>PORTFOLIO</h5>
                                 </div>
                                 <h2 className="featured-title-h2">Check out my work</h2>
-
+                                <div className="pt-30">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-6">
+                                            <div className="skill-item">
+                                                <a href='https://worldwweather.netlify.app/' target="_blank" className='portfolio-links'>
+                                                <img src="./img/weatherapi.png" className="portfolio" alt="weatherAPI" />
+                                                <h5 className='pt-2'> World Wide Weather</h5>
+                                                <p>This Application uses Weather API from metaweather. The application shows five weather updates present and the next coming four days. Built using ReactJS, Bootstrap and CSS </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-lg-6">
+                                            <div className="skill-item">
+                                                <i className="flaticon flaticon-mobile-app"></i>
+                                                <h5>Mobile App Development</h5>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </section>
                             <div  id="certification" className="featured-slipter-info"></div>
                             <section  className="info container">
