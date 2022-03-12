@@ -195,13 +195,13 @@ export class Home extends Component {
                                                 </a>
                                             </div>
                                         </div>
-                                        <div className="col-sm-6 col-lg-6">
+                                        {/* <div className="col-sm-6 col-lg-6">
                                             <div className="skill-item">
                                                 <i className="flaticon flaticon-mobile-app"></i>
                                                 <h5>Mobile App Development</h5>
                                                 
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </section>
