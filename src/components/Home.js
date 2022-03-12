@@ -188,7 +188,7 @@ export class Home extends Component {
                                     <div className="row">
                                         <div className="col-sm-6 col-lg-6">
                                             <div className="skill-item">
-                                                <a href='https://worldwweather.netlify.app/' target="_blank" className='portfolio-links'>
+                                                <a href='https://worldwweather.netlify.app/' target="_blank" rel='noreferrer' className='portfolio-links'>
                                                 <img src="./img/weatherapi.png" className="portfolio" alt="weatherAPI" />
                                                 <h5 className='pt-2'> World Wide Weather</h5>
                                                 <p>This Application uses Weather API from metaweather. The application shows five weather updates present and the next coming four days. Built using ReactJS, Bootstrap and CSS </p>
