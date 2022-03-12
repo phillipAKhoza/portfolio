@@ -1026,3 +1026,19 @@ span.navbar-toggler-icon{
   align-items: center;
   height: 300px;
 }
+
+.portfolio {
+  width: 100%;
+  height: 150px;
+
+}
+
+.portfolio-links{
+  text-decoration: none;
+  color: #000;
+}
+
+.portfolio-links p{
+  text-align: left;
+  font-size: 14px;
+}
