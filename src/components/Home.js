@@ -74,7 +74,7 @@ export class Home extends Component {
                                 <div className="sub-title">
                                 <h5>ABOUT ME</h5>
                                 </div>
-                                <h2 className="featured-title-h2">I Am A Passionate Front-end web, Mobile, and SPFx developer</h2>
+                                <h2 className="featured-title-h2">I Am A Passionate Software Developer</h2>
                                 <p className="featured-paragraph">Solving problems and learning new things are enjoyable activities for me. I strive to achieve both personal and professional growth. With my studies and professional experience, I have acquired technical skills and learned how to communicate effectively with others. My passion for technology keeps me learning new things all the time. </p>
                                 <div className="row">
                                     <div className="col-sm-6 col-lg-6">
@@ -151,28 +151,25 @@ export class Home extends Component {
                             <div className="sub-title">
                                 <h5>MY EXPERIENCE</h5>
                                 </div>
-                                <h2 className="featured-title-h2">I Have over a year of Experience in Software Development</h2>
+                                <h2 className="featured-title-h2">I Have over two years of Experience in Software Development</h2>
                                 <p className="featured-paragraph">Despite the fact that I am only at the beginning of my professional career, I already possess a multitude of skills. For example, I have experience with HTML5, CSS3, React, React Native, JavaScript (ES6), and on the back-end development side, I have NodeJs, MongoDB, PHP, and RESTful APIs to name a few.</p>
                                 <div className="experience-container">
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2021/05 - Present</span></li>
-                                            <li><span>Junior Software Dev, Itthynk Smart Solutions, JHB</span></li>
-                                            <li><p>Web application and SPFx developer using TypeScript, Reactjs, DevOps &amp; Azure</p></li>
+                                            <li><span>Junior Software Dev, Itthynk Smart Solutions, JHB</span><p>Building solutions ranging from Web Applications: HTML5,CSS3, JavaScript, MongoDB, Firebase, NodeJS, Express, RESTAPIs, Git, Netlify; Mobile Application: Flutter; Cloud Computing: Azure, Azure DevOps; SharePoint: SharePoint Deployment, SharePoint Development, SPFx, Power Platform Development: PowerApps, Power Automate, Power BI, CDS, Dynamics 365,</p></li>
                                         </ul>
                                     </div>
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2020/11 - 2021/04</span></li>
-                                            <li><span>Software Dev Internship, Itthynk Smart Solutions, JHB</span></li>
-                                            <li><p>Principals of Web Application Dev,Project Planning, HTML5, CSS3 and JavaScript</p></li>
-                                        </ul>
+                                            <li><span>Software Dev Internship, Itthynk Smart Solutions, JHB</span><p>Software Developer; Building web application: HTML5,CSS3,JavaScript, JQuery, Git, React; cloud computing: Azure, DevOps</p></li>
+                                        </ul> 
                                     </div>
                                     <div className="experience-inner">
                                         <ul className="company">
                                             <li><span>2020/06 - 2020/11</span></li>
-                                            <li><span>Mobile App Dev Intern, Nisela Group Holdings, PTA</span></li>
-                                            <li><p>Android and IOS mobile Dev, React Nactive and Backend as a Service: Firebase Firestore</p></li>
+                                            <li><span>Mobile App Dev Intern, Nisela Group Holdings, PTA</span><p>Android and IOS mobile Dev, React Nactive and Backend as a Service: Firebase Firestore</p></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -192,6 +189,46 @@ export class Home extends Component {
                                                 <img src="./img/weatherapi.png" className="portfolio" alt="weatherAPI" />
                                                 <h5 className='pt-2'> World Wide Weather</h5>
                                                 <p>This Application uses Weather API from metaweather. The application shows five weather updates present and the next coming four days. Built using ReactJS, Bootstrap and CSS </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        {/* <div className="col-sm-6 col-lg-6">
+                                            <div className="skill-item">
+                                                <i className="flaticon flaticon-mobile-app"></i>
+                                                <h5>Mobile App Development</h5>
+                                                
+                                            </div>
+                                        </div> */}
+                                    </div>
+                                </div>
+                                <div className="pt-30">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-6">
+                                            <div className="skill-item">
+                                                <a href='https://property-listing-apk.netlify.app/' target="_blank" rel='noreferrer' className='portfolio-links'>
+                                                <img src="./img/property.png" className="portfolio" alt="weatherAPI" />
+                                                <h5 className='pt-2'> Property listing app</h5>
+                                                <p>Property listing app using React and Firebase. With the app you can view property listing which fall under two categories: Rent and Sale. You can also creat an account to list a property, edit it and delete it</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        {/* <div className="col-sm-6 col-lg-6">
+                                            <div className="skill-item">
+                                                <i className="flaticon flaticon-mobile-app"></i>
+                                                <h5>Mobile App Development</h5>
+                                                
+                                            </div>
+                                        </div> */}
+                                    </div>
+                                </div>
+                                <div className="pt-30">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-6">
+                                            <div className="skill-item">
+                                                <a href='https://property-listing-apk.netlify.app/' target="_blank" rel='noreferrer' className='portfolio-links'>
+                                                <img src="./img/eyeamg.png" className="portfolio" alt="weatherAPI" />
+                                                <h5 className='pt-2'> eyeamg</h5>
+                                                <p>eyeamg is an existing project by @netninja know as firegram it is created using React and Firebase[Storage] for just uploading images, the sole purpose of me re doing it was to updrade the project from using firebase 7 to firebase 9.</p>
                                                 </a>
                                             </div>
                                         </div>
