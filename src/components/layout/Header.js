@@ -52,7 +52,7 @@ export class Header extends Component {
                             </li>
                         </ul>
                         <div className="form-inline my-2 my-lg-0">
-                         <a className="btn download btn-outline-warning my-2 my-sm-0" type="submit" href="https://drive.google.com/file/d/1ruq_W1lBb7Kuhuf_xd_UpGP1A_VWZOXT/view?usp=sharing" onClick={this.handleClick}>Download CV <i className="fa fa-download featured-icon"></i></a>
+                         <a className="btn download btn-outline-warning my-2 my-sm-0" type="submit" href="https://drive.google.com/file/d/1w9gF5NgJuVWiyZfFtfC318-kcT0kiaS6/view?usp=sharing" onClick={this.handleClick}>Download CV <i className="fa fa-download featured-icon"></i></a>
                         </div>
                     </div>
                 </div>
