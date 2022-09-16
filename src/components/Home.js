@@ -99,7 +99,7 @@ export class Home extends Component {
                                 </div>
                                  <h2 className="featured-title-h2">My Skills</h2>
                                  <p className="featured-paragraph">As a result of my learning and work experiences, I have acquired a variety of skills, from soft skills to technical skills. When I work and communicate with other people, I always strive to develop skills that can help me communicate and work effectively.By bringing passion and dedication to my work, I strive to become better at my craft and to produce quality work.</p>
-                                 <p className="featured-paragraph text-center">My skills incluse:<br/> ReactJS, NodeJS, Express, JavaScript, TypeScript, HTML5, CSS3, SASS, Firebase, DevOps, Azure, Git, RESTAPIs, PowerApps, MongoDB, Firebase etc.</p>
+                                 <p className="featured-paragraph text-center"><span>My skills incluse:</span><br/> ReactJS, NodeJS, Express, JavaScript, TypeScript, HTML5, CSS3, SASS, Firebase, DevOps, Azure, Git, RESTAPIs, PowerApps, MongoDB, Firebase etc.</p>
                                 <p className="featured-paragraph skill-sub"><strong> The following areas of knowledge are among my strengths</strong></p>
                                 <div className="pt-30">
                                     <div className="row">
