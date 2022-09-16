@@ -39,7 +39,7 @@ export class Home extends Component {
                 <div className="row main-container">
                     <div className="col-lg-5">
                         <div >
-                            <img className="sticky" src="img/khoza.jpg" /*src="https://via.placeholder.com/400x790/444444.jpg"*/ title="single-img-five" alt="single-img-five" />
+                            <img className="sticky" src="img/phillip.jpg" /*src="https://via.placeholder.com/400x790/444444.jpg"*/ title="single-img-five" alt="single-img-five" />
                         </div>
                     </div>
             
